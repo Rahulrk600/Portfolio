@@ -1,0 +1,11 @@
+ @media (max-width: 1100px){
+      .devpic{
+            display: none;
+      }
+   .intro-containar{
+      margin-top: 60px;
+   }
+   .contactform{
+      margin-left: 60px;
+   }
+} 

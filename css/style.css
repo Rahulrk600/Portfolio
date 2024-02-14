@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(219, 216, 216);
+    color: white;
+    height: 100vh;
+    transition: transform .3s ease-in ;
+}
+.sidebar nav{
+    padding: 37px;
+}
+.sidebar nav li{
+      list-style: none;
+      font-size: 15px;
+      padding: 18px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: green; */
+    width: 90vw;
+}
+.containar{
+    display: flex;
+}
+.infocontainar{
+     /* background-color: brown;  */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.hello{
+ font-size: 40px;
+}
+.name{
+ font-size: 33px;
+ font-weight: bold;
+}
+.about{
+  font-size: 22px;
+}
+.aboutmore{
+    font-size: 16px;
+}
+.btn button{
+    margin-top: 25px;
+    padding: 8px;
+    border-radius: 30px;
+    color: springgreen;
+    background: black;
+    cursor: pointer;
+}
+.btn button:hover{
+    background: navy;
+    color: chartreuse;
+}
+.devpic img{
+    height: 58vh;
+}
+.sidebargo{
+    transform: translate(-150px, 0px);
+    position: absolute
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+  margin-left: 110px;
+}
+
+/* contact-form */
+.line1{
+    font-family:'Courier New', Courier, monospace;
+}
+.contactform{
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+.contactform form div{
+    font-family:  monospace;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailhelp{
+    font-size: 11px;
+    color: rgb(47, 117, 14);
+    margin: 0 5px;
+    padding: 2px 0 0 0;
+}
+.btn-contact{
+    width: 80px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 25px;
+    margin: 2px 0;
+}
+
+/* blog */
+
+
+.blogcontainar{
+    margin: 0px 20%;
+}
+.blogitem{
+    margin: 24px;
+    font-family:   monospace;
+}
+.blogcontainar h1{
+    font-family: monospace;
+    margin: 30px;
+    text-align: center;
+    
+}
+.blogitem p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 2px;
+}
+ 
+.intro-containar{
+    margin: 0% 20%;
+}
+.infocontainar{
+    margin:  10%;
+}
